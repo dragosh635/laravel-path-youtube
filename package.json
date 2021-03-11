@@ -23,5 +23,9 @@
         "vue": "^2.5.17",
         "vue-loader": "^15.9.5",
         "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "numeral": "^2.0.6",
+        "vue-avatar": "^2.3.3"
     }
 }

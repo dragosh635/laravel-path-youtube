@@ -14,7 +14,10 @@ class CreateUsersTable extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->id();
+            /*
+             * Change the primary key to be an uuid which is a string so remember to set the keyType property to string on the model
+             */
+            $table->uuid('id');
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
