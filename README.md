@@ -1,6 +1,6 @@
 ## 📽 Laratube 
 
-Build a look alike youtube application in laravel and vuew js with the help of an o'reilly course
+Build a look-alike youtube application in laravel and vuew js with the help of an o'reilly course
 
 ## 😎 Cool stuff about the project
 
